@@ -92,7 +92,7 @@ const NSTimeInterval kPollingInterval = 10.0;
     }
 
     statusItem.button.title = currentTrack
-        ? [NSString stringWithFormat:@"%@ - %@", [currentTrack artist], [currentTrack name]]
+        ? [NSString stringWithFormat:@"%@ by %@", [currentTrack name], [currentTrack artist]]
         : @"♫";
 }
 
